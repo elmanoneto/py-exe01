@@ -31,6 +31,9 @@ jobs:
         run: |
           poetry run pytest --cov=example01 --cov-report=term
 
+      - name: XML coverage
+        run: poetry run pytest --cov=example01 --cov-report=xml
+
       - name: Send coverage report
         uses: codecov/codecov-action@v3
         with:
