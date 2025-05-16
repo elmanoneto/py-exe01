@@ -30,3 +30,9 @@ jobs:
       - name: Run tests
         run: |
           poetry run pytest --cov=example01 --cov-report=term
+
+      - name: Send coverage report
+        uses: codecov/codecov-action@v3
+        with:
+          token: ${{ secrets.CODECOV }} # pode ser omitido para repositórios públicos
+          files: ./coverage.xml
