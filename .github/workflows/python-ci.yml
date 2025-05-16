@@ -37,5 +37,5 @@ jobs:
       - name: Send coverage report
         uses: codecov/codecov-action@v3
         with:
-          token: ${{ secrets.CODECOV }} # pode ser omitido para repositórios públicos
+          token: ${{ secrets.CODECOV_TOKEN }} # pode ser omitido para repositórios públicos
           files: ./coverage.xml
