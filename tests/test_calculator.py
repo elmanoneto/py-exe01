@@ -3,7 +3,7 @@ import pytest
 from example01.calculator import sum, sub, mul, div
 
 def test_sum():
-    assert sum(1, 2) == 3
+    assert sum(1, 2) == 4
     
 def test_sub():
     assert sub(1, 2) == -1
