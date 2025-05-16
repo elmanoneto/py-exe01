@@ -1,1 +1,1 @@
-[![codecov](https://codecov.io/gh/elmanoneto/py-exe01/branch/main/graph/badge.svg)](https://codecov.io/gh/elmanoneto/py-exe01)
+[![codecov](https://codecov.io/gh/elmanoneto/py-exe01/graph/badge.svg?token=4TK4J2NH90)](https://codecov.io/gh/elmanoneto/py-exe01)
