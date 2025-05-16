@@ -1,0 +1,27 @@
+# Virtual environment
+.env/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Tem lock files
+poetry.lock
+
+# Pytest cache
+.pytest_cache/
+
+# VSCode config
+.vscode/
+
+# Local database
+*.db
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# Others
+*.log
+.DS_Store

@@ -1,0 +1,20 @@
+[project]
+authors = [
+  {name = "Elmano Neto", email = "elmanoneto@gmail.com"},
+]
+dependencies = []
+description = ""
+name = "example01"
+readme = "README.md"
+requires-python = ">=3.13"
+version = "0.1.0"
+
+[tool.poetry]
+packages = [{include = "example01", from = "src"}]
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.5"
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core>=2.0.0,<3.0.0"]
