@@ -1,5 +1,5 @@
 def sum(a, b):
-    return a + b
+    return float(a) + float(b)
 
 def sub(a, b):
     return a - b
