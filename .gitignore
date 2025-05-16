@@ -25,3 +25,4 @@ dist/
 # Others
 *.log
 .DS_Store
+.coverage
